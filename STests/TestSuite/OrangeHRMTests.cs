@@ -19,14 +19,13 @@ namespace STests.TestSuite
         }
 
         [Test]
-
         public void OrangeHRMLogin2()
         {
             OrangeHRM.Login.LaunchAndLogin("AdminA");
+            Assert.Fail();
         }
 
         [Test]
-
         public void OrangeHRMLogin3()
         {
             OrangeHRM.Login.LaunchAndLogin("AdminA2");

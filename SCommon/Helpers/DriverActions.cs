@@ -15,14 +15,14 @@ namespace SCommon.Helpers
             try
             {
                  var element = Browser.GetDriver().FindElement(by);
+                ReportHandler.Log(AventStack.ExtentReports.Status.Info, "Element Click");
                 if (element.Displayed) element.Click();
                 else return;
-
 
             }
             catch (Exception)
             {
-
+                ReportHandler.Log(AventStack.ExtentReports.Status.Info,"Element did not find!");
                 throw;
             }
         }

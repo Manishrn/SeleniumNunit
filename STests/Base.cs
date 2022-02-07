@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using SCommon.Wrappers;
 using SCore;
 using System;
 using System.Collections.Generic;
@@ -18,13 +19,16 @@ namespace STests
         [SetUp]
         public void StartTest()
         {
+            ReportHandler.CreateTest(TestContext.CurrentContext.Test.Name);
             OrangeHRM = new OrangeHRM();
+
         }
 
         [TearDown]
         public void EndTest()
-        { 
-        OrangeHRM.Dispose();
+        {
+            ReportHandler.Capture(TestContext.CurrentContext.Test.Name);
+            OrangeHRM.Dispose();
         }
     }
 }
