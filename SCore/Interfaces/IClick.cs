@@ -11,5 +11,6 @@ namespace SCore.Interfaces
         event EventHandler OnClick;
         event EventHandler Clicked;
         void Click();
+        void Click(string name);
     }
 }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-[assembly: LevelOfParallelism(4)]
+[assembly: LevelOfParallelism(10)]
 namespace STests
 {
     
@@ -21,14 +21,23 @@ namespace STests
         {
             ReportHandler.CreateTest(TestContext.CurrentContext.Test.Name);
             OrangeHRM = new OrangeHRM();
-
+           
         }
 
         [TearDown]
         public void EndTest()
         {
             ReportHandler.Capture(TestContext.CurrentContext.Test.Name);
-            OrangeHRM.Dispose();
+            //if (TestContext.CurrentContext.Result.Equals(false)) 
+            //{
+            //    Assert.Fail();
+            //}
+            if (TestContext.CurrentContext.Result.FailCount > 0)
+            {
+                ReportHandler.Log(AventStack.ExtentReports.Status.Fail, $"Test failed {TestContext.CurrentContext.Test.Name} ");
+            }
+            OrangeHRM?.Dispose();
+            OrangeHRM=null;
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Interactions;
 using SCommon.Helpers;
 using SCore.Interfaces;
 using System;
@@ -9,12 +10,15 @@ using System.Threading.Tasks;
 
 namespace SCore.BasicObjects
 {
-    public class Button: IClick, IGetText,IVisible
+    public class Button:IClick, IGetText,IVisible
     {
         private readonly By Locator;
-        public Button(By locator)
+        public readonly String Name;
+
+        public Button(By locator, string name)
         {
             this.Locator = locator;
+            this.Name = name;
         }
 
         public string Text => throw new NotImplementedException();
@@ -26,9 +30,15 @@ namespace SCore.BasicObjects
         public event EventHandler OnClick;
         public event EventHandler Clicked;
 
+        public void Click(string name)
+        {            
+             DriverActions.Click(Locator, name);
+        }
         public void Click()
         {
-            DriverActions.Click(Locator);
+            throw new NotImplementedException();
         }
+
+        
     }
 }

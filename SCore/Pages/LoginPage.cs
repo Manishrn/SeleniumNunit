@@ -14,9 +14,9 @@ namespace SCore.Pages
     {
         public LoginPage()
         {
-            UserName = new Textbox(By.XPath("//*[@id='txtUsername']"));
-            PassWord = new Textbox(By.XPath("//*[@id='txtPassword']"));
-            LoginButton = new Button(By.XPath("//*[@id='btnLogin']"));
+            UserName = new Textbox(By.XPath("//*[@name='username']"));
+            PassWord = new Textbox(By.XPath("//*[@name='password']"));
+            LoginButton = new Button(By.XPath("//button[@type='submit']"),"Login Button");        
         }
 
         public Textbox UserName { get; }
@@ -27,9 +27,10 @@ namespace SCore.Pages
         {
             Browser.CreateDriver();
             Browser.Navigate("https://opensource-demo.orangehrmlive.com/");
+            Thread.Sleep(5000);
             UserName.SetText(userName);
             PassWord.SetText("admin123");
-            LoginButton.Click();
+            LoginButton.Click(LoginButton.Name);
             Thread.Sleep(5000);
         }
     }

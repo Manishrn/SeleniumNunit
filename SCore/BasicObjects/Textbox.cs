@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SCore.BasicObjects
 {
-    public class Textbox:IText, IClick,IGetText,ISetText
+    public class Textbox:IText,IGetText,ISetText
     {
         private readonly By Locator;
         public Textbox(By locator)

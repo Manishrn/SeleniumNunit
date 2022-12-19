@@ -18,7 +18,7 @@ namespace SCommon.Wrappers
         public static IWebDriver CreateDriver()
         {
             IWebDriver driver;
-            driver = new ChromeDriver(@"");
+            driver = new ChromeDriver(@"D:\Manish\Study\ChromeExe");
             driver.Manage().Window.Maximize();
 
             if (!drivers.TryAdd(Thread.CurrentThread, driver))

@@ -13,22 +13,26 @@ namespace STests.TestSuite
     {
         [Test]
 
-        public void OrangeHRMLogin()
+        [TestCase ("Admin")]
+       // [TestCase ("Admin1")]
+       // [TestCase ("Admin2")]
+        public void OrangeHRMLogin(string username)
         {
-            OrangeHRM.Login.LaunchAndLogin("Admin");
+            OrangeHRM.Login.LaunchAndLogin(username);
         }
 
         [Test]
-        public void OrangeHRMLogin2()
+        public void OrangeHRMLogin2Fail()
         {
             OrangeHRM.Login.LaunchAndLogin("AdminA");
-            Assert.Fail();
+            Assert.Pass();
         }
 
         [Test]
-        public void OrangeHRMLogin3()
+        public void OrangeHRMLogin3Fail()
         {
             OrangeHRM.Login.LaunchAndLogin("AdminA2");
+            Assert.Fail();
         }
     }
 }

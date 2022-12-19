@@ -1,12 +1,7 @@
-﻿using OpenQA.Selenium;
-using SCommon.Wrappers;
-using SCore.BasicObjects;
+﻿using SCommon.Wrappers;
 using SCore.Pages;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace SCore
 {

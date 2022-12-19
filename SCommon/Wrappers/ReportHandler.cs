@@ -16,7 +16,7 @@ namespace SCommon.Wrappers
 {
     public class ReportHandler
     {
-       public static ConcurrentDictionary<Thread, ExtentTest> testLoggers;
+        public static ConcurrentDictionary<Thread, ExtentTest> testLoggers;
         public static ExtentReports extent { get; set; }
 
         public ReportHandler()
@@ -40,6 +40,7 @@ namespace SCommon.Wrappers
             {
                 Console.WriteLine($"The logger is the thread {Thread.CurrentThread} not added !");
             }
+            ReportHandler.Log(Status.Info, $" exexution of test {testName} started");
             return testLogger;
         }
 
