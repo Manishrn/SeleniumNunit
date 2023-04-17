@@ -14,8 +14,8 @@ namespace STests.TestSuite
         [Test]
 
         [TestCase ("Admin")]
-       // [TestCase ("Admin1")]
-       // [TestCase ("Admin2")]
+        [TestCase ("Admin1")]
+        [TestCase ("Admin2")]
         public void OrangeHRMLogin(string username)
         {
             OrangeHRM.Login.LaunchAndLogin(username);

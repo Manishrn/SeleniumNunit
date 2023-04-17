@@ -19,6 +19,7 @@ namespace STests
         [SetUp]
         public void StartTest()
         {
+            Console.WriteLine("Start");
             ReportHandler.CreateTest(TestContext.CurrentContext.Test.Name);
             OrangeHRM = new OrangeHRM();
            

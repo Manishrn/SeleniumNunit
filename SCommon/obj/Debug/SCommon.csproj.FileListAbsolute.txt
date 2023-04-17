@@ -2,8 +2,10 @@ D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\SCommon.dll.config
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\SCommon.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\SCommon.pdb
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\AngleSharp.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\DnsClient.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\ExtentReports.dll
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\ICSharpCode.SharpZipLib.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
@@ -58,6 +60,7 @@ D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.Extensions.Options.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.Extensions.Primitives.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.Win32.Registry.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\MongoDB.Bson.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\MongoDB.Driver.Core.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\MongoDB.Driver.dll
@@ -84,7 +87,11 @@ D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Text.Encodings.Web.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Threading.Tasks.Extensions.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\WebDriver.dll
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\WebDriverManager.dll
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\AngleSharp.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\DnsClient.xml
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\ICSharpCode.SharpZipLib.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.AspNetCore.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
@@ -141,6 +148,7 @@ D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.Extensions.Primitives.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\Microsoft.Win32.Registry.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\MongoDB.Bson.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\MongoDB.Driver.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\MongoDB.Driver.Core.xml
@@ -155,10 +163,12 @@ D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Numerics.Vectors.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Reflection.Metadata.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Security.AccessControl.xml
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Security.Principal.Windows.xml
+D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Text.Encoding.CodePages.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Text.Encodings.Web.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\obj\Debug\SCommon.csproj.CoreCompileInputs.cache
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\obj\Debug\SCommon.csproj.CopyComplete
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\obj\Debug\SCommon.dll
 D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\obj\Debug\SCommon.pdb
-D:\Manish\Study\C#\PracticeQuestions\300122\Selenium4Framwork\SCommon\obj\Debug\SCommon.csproj.AssemblyReference.cache

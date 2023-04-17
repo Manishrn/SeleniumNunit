@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using WebDriverManager.DriverConfigs.Impl;
 
 namespace SCommon.Wrappers
 {
@@ -18,7 +19,8 @@ namespace SCommon.Wrappers
         public static IWebDriver CreateDriver()
         {
             IWebDriver driver;
-            driver = new ChromeDriver(@"D:\Manish\Study\ChromeExe");
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
+            driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
 
             if (!drivers.TryAdd(Thread.CurrentThread, driver))
